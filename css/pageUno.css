@@ -1,0 +1,98 @@
+
+body{
+    background-color: black;
+}
+
+.background-container {
+    background-image: url('../img/MuroUno.jpg');
+    background-size: cover; /* La imagen se ajustará para cubrir todo el contenedor */
+    background-position: center center; /* La imagen se centrará en el contenedor */
+    height: 100vh; /* Altura del contenedor igual al 100% de la altura de la ventana */
+}
+
+.background-container-dos {
+    background-image: url('../img/wood.jpg');
+    background-size: cover; /* La imagen se ajustará para cubrir todo el contenedor */
+    background-position: center center; /* La imagen se centrará en el contenedor */
+    height: 100vh; /* Altura del contenedor igual al 100% de la altura de la ventana */
+    margin-top: 0%;
+}
+
+.background-container-tres {
+    background-image: url('../img/muro.png');
+    background-size: cover; /* La imagen se ajustará para cubrir todo el contenedor */
+    background-position: center center; /* La imagen se centrará en el contenedor */
+    height: 70vh; /* Altura del contenedor igual al 100% de la altura de la ventana */
+    margin-top: 0%;
+}
+
+.background-container-cuatro {
+    background-image: url('../img/imagentres.jpg');
+    background-size: cover; /* La imagen se ajustará para cubrir todo el contenedor */
+    background-position: center center; /* La imagen se centrará en el contenedor */
+    height: 70vh; /* Altura del contenedor igual al 100% de la altura de la ventana */
+    margin-top: 0%;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.cabecera{
+    background-color: black;
+}
+
+main{
+    display: block;
+    background-color: grey;
+}
+
+.utensilios {
+    width: 140px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mision{
+    text-align: justify;
+}
+
+.imagen-diferenciales{
+    width: 60%;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
+    transition: 400ms;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.titulo-uno{
+    padding: 3%;
+    text-align: center;
+  }
+
+  /*.opciones{
+    height: 60px;
+  }*/
+
+  .row{
+    background-color:;
+    margin: auto;
+  }
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0; /* Elimina los márgenes */
+    }
+    .mision p {
+        margin-bottom: 10px; /* Ajusta el espaciado entre párrafos */
+    }
+}
